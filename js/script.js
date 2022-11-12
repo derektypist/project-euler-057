@@ -15,3 +15,31 @@ function getNumberInfo() {
     // Display Information in the Browser
     document.getElementById("numinfo").innerHTML = txt;
 }
+
+/*
+    Function to return the number of fraction(s) containing a numerator with
+    more digits than the denominator in the first n expansions
+    squareRootConvergents(10)   returns 1
+    squareRootConvergents(100)  returns 15
+    squareRootConvergents(1000) returns 153
+*/
+function squareRootConvergents(n) {
+    function countDigits(number) {
+        let counter = 0;
+        while (number > 0) {
+            counter++;
+            number = number/10n;
+        }
+        return counter;
+    }
+
+    // Need to use BigInts for numerator and denominator
+    let numerator = 3n;
+    let denominator = 2n;
+    let moreDigitsInNumerator = 0;
+    for (let i=2;i<=n;i++) {
+        [numerator, denominator] = [numerator + 2n * denominator, denominator + numerator];
+        if (countDigits(numerator) > countDigits(denominator)) moreDigitsInNumerator++;
+    }
+    return moreDigitsInNumerator;
+}
