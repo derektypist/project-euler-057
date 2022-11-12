@@ -31,5 +31,22 @@
         <p>The next three expansions are 99/70, 239/169, and 577/408, but the eighth expansion, 1393/985, is the first example, where the number of digits in the numerator exceeds the number of digits in the denominator.</p>
         <p>In the first n expansions, how many fractions contain a numerator with more digits than the denominator?  Begin by entering a number.</p>
     </section>
+
+    <!-- Set Up Form -->
+    <section class="container-fluid">
+        <form>
+            <!-- Set Up Label and Input -->
+            <article class="mb-3">
+                <label for="mynumber" class="form-label">Number (Required)</label>
+                <input class="form-control" title="Enter whole number between 10 and 10000 (without leading zeros)" placeholder="Enter whole number between 10 and 10000 (without leading zeros)" id="mynumber">
+            </article>
+
+            <!-- Set Up and Center Buttons -->
+            <article class="d-grid gap-2 d-flex justify-content-center">
+                <button type="button" class="btn btn-info" onclick="getNumberInfo()">Submit</button>
+                <button type="reset" class="btn btn-warning" onclick="clearInfo()">Reset</button>
+            </article>
+        </form>
+    </section>
 </body>
 </html>
