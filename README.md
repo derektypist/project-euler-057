@@ -53,3 +53,26 @@ The function `squareRootConvergents(n)` returns a number, where `n` is a number 
 
 Allows the user to enter the number in order to find the number of fractions containing a numerator with more digits than the denominator.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
 
+## Technologies
+
+Uses HTML5, CSS3, JavaScript with BigInt, Bootstrap 5.2.2 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-057) at the main branch.
+
+## Credits
+
+### Content
+
+Square Root Symbol &radic; taken from [w3schools.com - HTML Symbols](https://www.w3schools.com/html/html_symbols.asp).
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
+- [w3schools.com](https://www.w3schools.com)
