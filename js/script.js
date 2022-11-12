@@ -43,3 +43,9 @@ function squareRootConvergents(n) {
     }
     return moreDigitsInNumerator;
 }
+
+// Function to Clear Information
+function clearInfo() {
+    let txt = "";
+    document.getElementById("numinfo").innerHTML = txt;
+}
