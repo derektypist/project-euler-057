@@ -16,9 +16,20 @@
         <h2>Square Root Convergents</h2>
     </header>
 
-    <!-- Set Up Instructions -->
+    <!-- Set Up Instructions (including symbol for square root)-->
     <section class="container-fluid instructions">
-        
+        <p>It is possible to show that the square root of two can be expressed as an infinite continued fraction.</p>
+        <p><span class="terms">&radic; 2 = 1 + 1 / (2 + 1 / (2 + 1 / (2 + ...)))</span></p>
+        <p>By expanding this for the first four iterations, we get:</p>
+        <ul>
+            <li>1 + 1/2 = 3/2 = 1.5</li>
+            <li>1 + 1 / (2 + 1 / 2) = 7/5 = 1.4</li>
+            <li>1 + 1 / (2 + 1 / (2 + 1 / 2)) = 17/12 = 1.41666...</li>
+            <li>1 + 1 / (2 + 1 / (2 + 1 + (2 + 1 / 2))) = 41/29 = 1.41379...</li>
+        </ul>
+       
+        <p>The next three expansions are 99/70, 239/169, and 577/408, but the eighth expansion, 1393/985, is the first example, where the number of digits in the numerator exceeds the number of digits in the denominator.</p>
+        <p>In the first n expansions, how many fractions contain a numerator with more digits than the denominator?  Begin by entering a number.</p>
     </section>
 </body>
 </html>
