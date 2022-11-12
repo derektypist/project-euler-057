@@ -21,7 +21,7 @@ Information at [Project Euler 057](https://projecteuler.net/problem=57)
 
 **Getting Started**
 
-In the input field, enter a whole number between 10 and 10000 (without leading zeros such as 010) and select the Submit Button.  You will see the number entered as well as the number of fractions containing a numerator with more digits than the denominator, unless you have made an invalid input.  For example, if you entered and submitted 10, you would expect the result to be 1.  Select the Reset Button to clear the information or to start again.
+In the input field, enter a whole number between 10 and 1000 (without leading zeros such as 010) and select the Submit Button.  You will see the number entered as well as the number of fractions containing a numerator with more digits than the denominator, unless you have made an invalid input.  For example, if you entered and submitted 10, you would expect the result to be 1.  Select the Reset Button to clear the information or to start again.
 
 **User Stories**
 
@@ -29,7 +29,7 @@ As a user, I expect to get an error message, if I do any of:
 
 - Not enter anything in the input field
 - Entering text other than a number
-- Entering a number less than 10 or greater than 10000
+- Entering a number less than 10 or greater than 1000
 - Including leading zeros such as 010
 - Entering a number, but it is not an integer
 
@@ -47,7 +47,7 @@ User Stories on function `squareRootConvergents(n)` taken from [FreeCodeCamp - C
 
 **Information Architecture**
 
-The function `squareRootConvergents(n)` returns a number, where `n` is a number between 10 and 10000.
+The function `squareRootConvergents(n)` returns a number, where `n` is a number between 10 and 1000.
 
 ## Features
 
