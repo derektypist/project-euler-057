@@ -5,7 +5,7 @@ function getNumberInfo() {
     // Get the value of the input field
     let num = document.getElementById("mynumber").value;
     // Check if input is valid
-    if (isNaN(num) || num.length == 0 || num<10 || num>10000 || (num.length > 1 && num[0] == "0") || !Number.isInteger(Number(num))) {
+    if (isNaN(num) || num.length == 0 || num < 10 || num > 10000 || (num.length > 1 && num[0] == "0") || !Number.isInteger(Number(num))) {
         txt += `Invalid Input.  Please enter a whole number between 10 and 10000.  Do not include leading zeros.`;
     } else {
         txt += `You have entered the number ${num}. <p>`;
@@ -28,7 +28,7 @@ function squareRootConvergents(n) {
         let counter = 0;
         while (number > 0) {
             counter++;
-            number = number/10n;
+            number = number / 10n;
         }
         return counter;
     }
@@ -37,7 +37,7 @@ function squareRootConvergents(n) {
     let numerator = 3n;
     let denominator = 2n;
     let moreDigitsInNumerator = 0;
-    for (let i=2;i<=n;i++) {
+    for (let i = 2; i <= n; i++) {
         [numerator, denominator] = [numerator + 2n * denominator, denominator + numerator];
         if (countDigits(numerator) > countDigits(denominator)) moreDigitsInNumerator++;
     }
