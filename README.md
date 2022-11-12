@@ -69,7 +69,7 @@ Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-057) at t
 
 ### Content
 
-Square Root Symbol &radic; taken from [w3schools.com - HTML Symbols](https://www.w3schools.com/html/html_symbols.asp).
+Square Root Symbol &radic; taken from [w3schools.com - HTML Symbols](https://www.w3schools.com/html/html_symbols.asp), accessed on 12 November 2022.
 
 ### Acknowledgements
 
